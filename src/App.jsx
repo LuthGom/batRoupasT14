@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import { msg } from "../mensagem";
 // import Home from "./pages/Home";
 // import Contato from "./pages/Contato";
 // import Sobre from "./pages/Sobre";
@@ -32,7 +31,7 @@ function App() {
         style={{ display: mensagem === "" ? "none" : "block" }}
         width="300"
       />
-      <button onClick={() => setMensagem(msg)}>Clique Aqui!</button>
+      <button onClick={() => setMensagem("Código funcionando! Nos vemos sábado, às 14h. Vou mandar o link do meet alguns minutos antes lá no discord. Até mais ⚛ (O que acharam da nossa logo? haha)")}>Clique Aqui!</button>
     </div>
   );
 }
