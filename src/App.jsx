@@ -13,12 +13,25 @@ import { msg } from "../mensagem";
 // import Masculino from "./pages/Masculino";
 // import Feminino from "./pages/Feminino";
 // import LGBT from "./pages/LGBTQIA+";
-
+import logotipo from "./assets/logotipo.gif";
 function App() {
   const [mensagem, setMensagem] = useState("");
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center"
+      }}
+    >
       <h1>{mensagem}</h1>
+      <img
+        src={logotipo}
+        style={{ display: mensagem === "" ? "none" : "block" }}
+        width="300"
+      />
       <button onClick={() => setMensagem(msg)}>Clique Aqui!</button>
     </div>
   );
