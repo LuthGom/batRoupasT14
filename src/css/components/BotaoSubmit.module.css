@@ -1,0 +1,13 @@
+.button {
+    height: 35px;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#FFFFFF ;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}

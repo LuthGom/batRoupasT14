@@ -1,0 +1,27 @@
+footer {
+  height: 320px;
+  background-color: #000000;
+}
+.container {
+  height: 250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer p {
+  color: white;
+}
+.colunas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1em;
+}
+.copy p {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer a {
+  text-decoration: none;
+  color: #868da0;
+}

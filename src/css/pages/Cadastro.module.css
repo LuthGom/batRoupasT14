@@ -1,0 +1,16 @@
+.form {
+    background-color: #FEF4F4;
+}
+.titulo h1{
+    margin: 0;
+    padding-top: 1em;
+}
+.container {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FEF4F4;
+}
+

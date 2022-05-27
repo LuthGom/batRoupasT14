@@ -1,0 +1,11 @@
+.containerFlex {
+  display: flex;
+  justify-content: space-evenly;
+  height: 20em;
+}
+.containerGrid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(5, auto);
+  height: inherit;
+}
