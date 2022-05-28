@@ -1,0 +1,19 @@
+.container {
+  margin: 1em;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 1em;
+  background-color: #fef4f4;
+}
+.img {
+  width: 200px;
+  height: 250px;
+}
+.container p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.container:hover {
+  cursor: pointer;
+}
