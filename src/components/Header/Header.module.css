@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px groove #868da0;
+  padding: 0.5em;
+  background-color: #eef3f8;
+  width: 100%;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
